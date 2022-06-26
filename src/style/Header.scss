@@ -1,0 +1,158 @@
+.home {
+  height: 100vh;
+  width: 100%;
+}
+.home_h {
+  height: 10vh;
+}
+.home_body {
+  height: 90vh;
+}
+.border_b {
+  display: flex;
+  height: 100px;
+  width: 90%;
+  align-items: center;
+  margin-left: auto;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+}
+.option1 {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  logo span {
+    color: orangered;
+    font-size: xlarge;
+    padding-left: 2px;
+  }
+}
+
+.option2 {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-weight: 700;
+}
+
+.option3 {
+  padding-right: 15%;
+  button {
+    border: 2px solid lightgray;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+.home_body {
+  display: flex;
+  .home_1,
+  .home_2 {
+    width: 50%;
+  }
+
+  .home_2 {
+    background-color: rgb(228, 228, 218);
+    margin-left: 3px;
+  }
+}
+
+.name_text1,
+.name_text2 {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+  name {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  button {
+    background-color: rgb(78, 78, 239);
+    border-radius: 30px;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
+.description {
+  display: flex;
+  font-weight: 500;
+  line-height: 35px;
+  h {
+    font-weight: 700;
+  }
+}
+
+.projectdone_contact {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  height: 170px;
+  width: 400px;
+
+  justify-content: space-between;
+  .project_info {
+    display: flex;
+    flex-direction: column;
+    number {
+      font-size: 25px;
+      font-weight: 700;
+      padding-bottom: 6px;
+    }
+    name {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+.hireme_pro-b {
+  padding-top: 30px;
+  button {
+    padding: 10px;
+    background-color: rgb(240, 88, 38);
+    border: none;
+    font-size: medium;
+    color: white;
+    width: 130px;
+    height: 50px;
+  }
+}
+
+.project_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_info {
+  p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  email {
+    color: black;
+    font-size: 16px;
+  }
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  justify-content: end;
+}
+
+.name_text2 {
+  padding-bottom: 20px;
+}
